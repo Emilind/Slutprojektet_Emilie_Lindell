@@ -10,6 +10,7 @@ namespace Slutprojektet_Emilie_Lindell
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
