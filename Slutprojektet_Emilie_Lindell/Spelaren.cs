@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Slutprojektet_Emilie_Lindell
 {
-    class Xavier:HotStranger
+    class Spelaren
     {
-        public Xavier()
+        private int hp;
+        public Spelaren()
         {
-            hp = 50;
+            Random gen = new Random();
+            hp = gen.Next(25, 50);
         }
+       
     }
 }

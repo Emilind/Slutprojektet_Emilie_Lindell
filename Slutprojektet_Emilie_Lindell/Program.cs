@@ -14,7 +14,7 @@ namespace Slutprojektet_Emilie_Lindell
         static void Main(string[] args)
         {
             string A = "";
-            string B = "";
+            
             // String- En variabel som kan hålla texter/ord.
             Console.WriteLine("Hello! It's time to make your player. First of choose a name for your player.");
 
@@ -52,8 +52,9 @@ namespace Slutprojektet_Emilie_Lindell
             Console.WriteLine("Oh hello " + A + ", welcome! ");
             Console.WriteLine("So, imagine that your in a pickup line fight with a hot stranger. It's all about winning with the best pick up lines!");
             Console.WriteLine("");
-            Console.WriteLine("Please name your hot stranger;");
-            while (B.Length < 3 || B.Length > 32 || B.All(char.IsDigit) == true)
+            Console.WriteLine("Please choose your hot stranger;");
+
+            while ()
             {
                 B = Console.ReadLine();
 
@@ -117,7 +118,7 @@ namespace Slutprojektet_Emilie_Lindell
 
 
             int pl1 = 30;
-            int pl2 = 30;
+            
             //int- håller heltal
             Random gen = new Random();
             //Radnom x = new Random - När man vill slumpa mellan exemepelvis tal så blir detta generatorn.

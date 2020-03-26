@@ -8,7 +8,7 @@ namespace Slutprojektet_Emilie_Lindell
 {
     class HotStranger
     {
-        int hp;
-        
+        public int hp;
+        public int charm;
     }
 }

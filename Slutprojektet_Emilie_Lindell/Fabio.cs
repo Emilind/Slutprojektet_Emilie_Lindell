@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Slutprojektet_Emilie_Lindell
 {
-    class Fabio
+    class Fabio:HotStranger
     {
+        public Fabio()
+        {
+            hp = 45;
+        }
     }
 }
